@@ -48,6 +48,6 @@ end
 #You should use the `each` method to iterate over your hash to print out that sentence
 def key_and_data(first_recycle_bin)
   first_recycle_bin.each do |key, value|
-    puts "The #{key} is #{value}."
+    puts "The #{key} is #{value}"
   end
 end
