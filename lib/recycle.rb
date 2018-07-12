@@ -39,7 +39,14 @@ end
 #4. Define a method called `all_data` that takes a hash as an argument.
 #This method should print out each value in the hash.
 #You should use the `each_value` method to iterate over your hash and print out each value.
+def all_data(first_recycle_bin)
+  puts first_recycle_bin.values 
+end
 
 #5. Define a method called `key_and_data` that takes a hash as an argument.
 #This method should print out each key and value in the hash in a sentence like this: `The #{key} is #{value}`
 #You should use the `each` method to iterate over your hash to print out that sentence
+def key_and_data(first_recycle_bin)
+first_recycle_bin.each do |key, value|
+  puts "The #{key} is #{value}."
+end
