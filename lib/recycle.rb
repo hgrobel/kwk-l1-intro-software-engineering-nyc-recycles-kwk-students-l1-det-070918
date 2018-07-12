@@ -32,7 +32,7 @@ end
 #This method should print out each key in the hash. 
 #You should use the `each_key` method to iterate over your hash and print out each key.
 def all_keys(first_recycle_bin)
-  puts first_recycle_bin.each_key 
+  puts first_recycle_bin.keys
 end
 
 
